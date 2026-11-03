@@ -36,7 +36,7 @@ Scrape Toutiao (今日头条), China's biggest news app, without logging in. Sea
 
 $2 per 1,000 articles or videos, $1 per 1,000 comments or hot-board topics.
 
-**[Open Toutiao Scraper on Apify](https://apify.com/smoldesk/toutiao-scraper)**
+**[Open Toutiao Scraper on Apify](https://apify.com/smoldesk/toutiao-scraper)** · [GitHub](https://github.com/smoldesk/toutiao-scraper)
 
 ### YouTube Scraper
 

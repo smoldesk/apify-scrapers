@@ -27,7 +27,7 @@ Scrape Weibo (新浪微博) without logging in. Search any keyword or #hashtag w
 
 $8 per 1,000 posts or profiles, $1 per 1,000 comments or hot-search topics.
 
-**[Open Weibo Scraper on Apify](https://apify.com/smoldesk/weibo-scraper)**
+**[Open Weibo Scraper on Apify](https://apify.com/smoldesk/weibo-scraper)** · [GitHub](https://github.com/smoldesk/weibo-scraper)
 
 ### YouTube Scraper
 

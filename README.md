@@ -35,7 +35,7 @@ Scrape YouTube without an API key or quota. Search results, channel videos, Shor
 
 $1 per 1,000 videos or channels, $0.50 per 1,000 comments.
 
-**[Open YouTube Scraper on Apify](https://apify.com/smoldesk/youtube-scraper)**
+**[Open YouTube Scraper on Apify](https://apify.com/smoldesk/youtube-scraper)** · [GitHub](https://github.com/smoldesk/youtube-scraper)
 
 ### Bilibili Scraper
 
@@ -43,7 +43,7 @@ Scrape Bilibili (哔哩哔哩) without logging in: video search, full video stat
 
 $2.50 per 1,000 videos, $2 per 1,000 creators, $0.50 per 1,000 comments, $0.10 per 1,000 danmaku.
 
-**[Open Bilibili Scraper on Apify](https://apify.com/smoldesk/bilibili-scraper)**
+**[Open Bilibili Scraper on Apify](https://apify.com/smoldesk/bilibili-scraper)** · [GitHub](https://github.com/smoldesk/bilibili-scraper)
 
 ### Telegram Channel Scraper
 
@@ -51,7 +51,7 @@ Scrape public Telegram channels without a login or Telegram API keys. Messages w
 
 $1 per 1,000 messages, $2 per 1,000 channels.
 
-**[Open Telegram Channel Scraper on Apify](https://apify.com/smoldesk/telegram-channel-scraper)**
+**[Open Telegram Channel Scraper on Apify](https://apify.com/smoldesk/telegram-channel-scraper)** · [GitHub](https://github.com/smoldesk/telegram-channel-scraper)
 
 ### Substack Scraper
 
@@ -59,7 +59,7 @@ Scrape Substack newsletters: subscriber counts, paid tiers and prices, author so
 
 $3 per 1,000 newsletters, $1 per 1,000 posts.
 
-**[Open Substack Scraper on Apify](https://apify.com/smoldesk/substack-scraper)**
+**[Open Substack Scraper on Apify](https://apify.com/smoldesk/substack-scraper)** · [GitHub](https://github.com/smoldesk/substack-scraper)
 
 ## Marketing and SEO
 
@@ -69,7 +69,7 @@ Google Trends data over plain HTTP, no browser. Interest over time, interest by 
 
 $1.50 per 1,000 results, $0.50 per 1,000 trending searches.
 
-**[Open Google Trends Scraper on Apify](https://apify.com/smoldesk/google-trends-scraper)**
+**[Open Google Trends Scraper on Apify](https://apify.com/smoldesk/google-trends-scraper)** · [GitHub](https://github.com/smoldesk/google-trends-scraper)
 
 ### Google Ads Transparency Scraper
 
@@ -77,7 +77,7 @@ See every ad a competitor runs on Google Search, YouTube, Shopping, Maps and Pla
 
 $1 per 1,000 ads, plus $2 per 1,000 for full ad details.
 
-**[Open Google Ads Transparency Scraper on Apify](https://apify.com/smoldesk/google-ads-transparency-scraper)**
+**[Open Google Ads Transparency Scraper on Apify](https://apify.com/smoldesk/google-ads-transparency-scraper)** · [GitHub](https://github.com/smoldesk/google-ads-transparency-scraper)
 
 ### Shopify Store Analyzer
 
@@ -85,7 +85,7 @@ Look inside any Shopify store: installed apps, theme, contact emails and phones,
 
 $5 per 1,000 stores, $0.50 per 1,000 products.
 
-**[Open Shopify Store Analyzer on Apify](https://apify.com/smoldesk/shopify-store-analyzer)**
+**[Open Shopify Store Analyzer on Apify](https://apify.com/smoldesk/shopify-store-analyzer)** · [GitHub](https://github.com/smoldesk/shopify-store-analyzer)
 
 ## Travel
 
@@ -95,7 +95,7 @@ Hotel prices from Google Hotels for any city: nightly and total prices for your 
 
 $2.50 per 1,000 hotels, plus $2 per 1,000 for booking-site prices.
 
-**[Open Google Hotels Scraper on Apify](https://apify.com/smoldesk/google-hotels-scraper)**
+**[Open Google Hotels Scraper on Apify](https://apify.com/smoldesk/google-hotels-scraper)** · [GitHub](https://github.com/smoldesk/google-hotels-scraper)
 
 ## Jobs
 
@@ -105,7 +105,7 @@ One scraper for SEEK (Australia, New Zealand), JobStreet (Malaysia, Singapore, P
 
 $0.80 per 1,000 jobs, plus $0.40 per 1,000 for full descriptions.
 
-**[Open SEEK, JobStreet & JobsDB Scraper on Apify](https://apify.com/smoldesk/seek-jobs-scraper)**
+**[Open SEEK, JobStreet & JobsDB Scraper on Apify](https://apify.com/smoldesk/seek-jobs-scraper)** · [GitHub](https://github.com/smoldesk/seek-jobs-scraper)
 
 ### Career Site Jobs Scraper
 
@@ -113,7 +113,7 @@ Search live jobs from more than 13,000 company career sites on Greenhouse, Lever
 
 $2 per 1,000 jobs.
 
-**[Open Career Site Jobs Scraper on Apify](https://apify.com/smoldesk/career-site-jobs-scraper)**
+**[Open Career Site Jobs Scraper on Apify](https://apify.com/smoldesk/career-site-jobs-scraper)** · [GitHub](https://github.com/smoldesk/career-site-jobs-scraper)
 
 ## Sports
 
@@ -123,7 +123,7 @@ Tennis results, fixtures and betting odds from TennisExplorer. Set scores, openi
 
 $2 per 1,000 matches (plus $3 per 1,000 for odds and H2H), $3 per 1,000 players, $0.50 per 1,000 ranking rows.
 
-**[Open Tennis Scraper on Apify](https://apify.com/smoldesk/tennis-scraper)**
+**[Open Tennis Scraper on Apify](https://apify.com/smoldesk/tennis-scraper)** · [GitHub](https://github.com/smoldesk/tennis-scraper)
 
 ## Running a scraper from code
 

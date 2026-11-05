@@ -136,7 +136,7 @@ $0.80 per 1,000 jobs, plus $0.40 per 1,000 for full descriptions.
 
 ### Career Site Jobs Scraper
 
-Search live jobs from more than 13,000 company career sites on Greenhouse, Lever, Ashby and Workday by title, location, remote and seniority. Or point it at any company on 8 applicant tracking systems. Salary ranges, descriptions in Markdown, and a new-jobs mode that also tells you which jobs closed.
+Search live jobs from more than 12,000 company career sites on Greenhouse, Lever, Ashby and Workday by title, location, remote and seniority. Or point it at any company on 8 applicant tracking systems. Salary ranges, descriptions in Markdown, and a new-jobs mode that also tells you which jobs closed.
 
 $2 per 1,000 jobs.
 

@@ -8,6 +8,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 |---|---|---|
 | [Weibo Scraper](#weibo-scraper) | Posts, comments, profiles, hot search | $8 / 1,000 posts |
 | [Toutiao Scraper](#toutiao-scraper) | News search, comments, hot board | $2 / 1,000 articles |
+| [WeChat Articles Scraper](#wechat-articles-scraper) | Official Account articles, full text, images | $8 / 1,000 articles |
 | [YouTube Scraper](#youtube-scraper) | Videos, Shorts, channels, comments | $1 / 1,000 videos |
 | [Bilibili Scraper](#bilibili-scraper) | Videos, comments, danmaku, creators | $2.50 / 1,000 videos |
 | [Telegram Channel Scraper](#telegram-channel-scraper) | Channel messages, views, reactions | $1 / 1,000 messages |
@@ -38,6 +39,14 @@ Scrape Toutiao (今日头条), China's biggest news app, without logging in. Sea
 $2 per 1,000 articles or videos, $1 per 1,000 comments or hot-board topics.
 
 **[Open Toutiao Scraper on Apify](https://apify.com/smoldesk/toutiao-scraper)** · [GitHub](https://github.com/smoldesk/toutiao-scraper)
+
+### WeChat Articles Scraper
+
+Scrape WeChat Official Account (微信公众号) articles without a WeChat account or login. Search any keyword through Sogou WeChat search and get each article's full text as Markdown and plain text, images, publish time, account name and ID, author, the original/repost flag and IP location. Paste article links to get their full text, or schedule it with **Only new articles** to monitor a brand.
+
+$8 per 1,000 articles with full text, $2 per 1,000 search cards.
+
+**[Open WeChat Articles Scraper on Apify](https://apify.com/smoldesk/wechat-articles-scraper)** · [GitHub](https://github.com/smoldesk/wechat-articles-scraper)
 
 ### YouTube Scraper
 

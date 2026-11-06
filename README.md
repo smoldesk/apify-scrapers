@@ -7,7 +7,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | Scraper | What it gets | Price |
 |---|---|---|
 | [Weibo Scraper](#weibo-scraper) | Posts, comments, profiles, hot search | $8 / 1,000 posts |
-| [Toutiao Scraper](#toutiao-scraper) | News search, comments, hot board | $2 / 1,000 articles |
+| [Toutiao Scraper](#toutiao-scraper) | News and 微头条 post search, comments, hot board | $2 / 1,000 articles |
 | [WeChat Articles Scraper](#wechat-articles-scraper) | Official Account articles, full text, images | $8 / 1,000 articles |
 | [YouTube Scraper](#youtube-scraper) | Videos, Shorts, channels, comments | $1 / 1,000 videos |
 | [Bilibili Scraper](#bilibili-scraper) | Videos, comments, danmaku, creators | $2.50 / 1,000 videos |
@@ -34,7 +34,7 @@ $8 per 1,000 posts or profiles, $1 per 1,000 comments or hot-search topics.
 
 ### Toutiao Scraper
 
-Scrape Toutiao (今日头条), China's biggest news app, without logging in. Search any keyword within a date range and get articles and videos with reads, plays, likes, comments and shares, the comment and reply threads, and the hot board (热榜) with heat scores. Has a monitor mode that only returns new articles.
+Scrape Toutiao (今日头条), China's biggest news app, without logging in. Search any keyword within a date range and get articles and videos with reads, plays, likes, comments and shares, 微头条 short posts with full text, images and hashtags, the comment and reply threads, and the hot board (热榜) with heat scores. Has a monitor mode that only returns new articles.
 
 $2 per 1,000 articles or videos, $1 per 1,000 comments or hot-board topics.
 

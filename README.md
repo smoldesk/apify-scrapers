@@ -22,7 +22,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Shopify Store Analyzer](#shopify-store-analyzer) | Store apps, theme, contacts, products | $5 / 1,000 stores |
 | [SEEK, JobStreet & JobsDB Scraper](#seek-jobstreet--jobsdb-scraper) | Jobs and salaries in APAC | $0.80 / 1,000 jobs |
 | [Career Site Jobs Scraper](#career-site-jobs-scraper) | Jobs from Greenhouse, Lever, Workday and more | $2 / 1,000 jobs |
-| [Tennis Scraper](#tennis-scraper) | Results, odds, H2H, ATP/WTA rankings | $2 / 1,000 matches |
+| [Tennis Scraper](#tennis-scraper) | Results, odds, H2H, ATP/WTA rankings | $2.50 / 1,000 matches |
 
 ## Social media
 
@@ -166,7 +166,7 @@ $2 per 1,000 jobs.
 
 Tennis results, fixtures and betting odds from TennisExplorer. Set scores, opening and closing odds from 15 bookmakers, head-to-head records, player stats and ATP/WTA rankings. Covers ATP, WTA, Challenger and ITF.
 
-$2 per 1,000 matches (plus $3 per 1,000 for odds and H2H), $3 per 1,000 players, $0.50 per 1,000 ranking rows.
+$2.50 per 1,000 matches (plus $3.50 per 1,000 for odds and H2H), $3.50 per 1,000 players, $0.60 per 1,000 ranking rows on the Free plan; lower on paid Apify plans (down to $1.40 per 1,000 matches).
 
 **[Open Tennis Scraper on Apify](https://apify.com/smoldesk/tennis-scraper)** · [GitHub](https://github.com/smoldesk/tennis-scraper)
 

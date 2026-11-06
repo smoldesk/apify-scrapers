@@ -10,6 +10,8 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Toutiao Scraper](#toutiao-scraper) | News and 微头条 post search, comments, hot board | $2 / 1,000 articles |
 | [WeChat Articles Scraper](#wechat-articles-scraper) | Official Account articles, full text, images | $8 / 1,000 articles |
 | [YouTube Scraper](#youtube-scraper) | Videos, Shorts, channels, comments | $1 / 1,000 videos |
+| [YouTube Comments Scraper](#youtube-comments-scraper) | Comments and replies from videos, channels, searches | $1.20 / 1,000 comments |
+| [YouTube Channel Scraper](#youtube-channel-scraper) | Channel profiles, social links, latest videos | $1 / 1,000 results |
 | [Bilibili Scraper](#bilibili-scraper) | Videos, comments, danmaku, creators | $2.50 / 1,000 videos |
 | [Telegram Channel Scraper](#telegram-channel-scraper) | Channel messages, views, reactions | $1 / 1,000 messages |
 | [Substack Scraper](#substack-scraper) | Newsletters, subscriber counts, posts | $3 / 1,000 newsletters |
@@ -55,6 +57,22 @@ Scrape YouTube without an API key or quota. Search results, channel videos, Shor
 $1 per 1,000 videos or channels, $0.50 per 1,000 comments.
 
 **[Open YouTube Scraper on Apify](https://apify.com/smoldesk/youtube-scraper)** · [GitHub](https://github.com/smoldesk/youtube-scraper)
+
+### YouTube Comments Scraper
+
+Comments and replies from YouTube video URLs, a channel's latest videos, playlists or the top videos for a keyword. Full text, author, likes, reply count, pinned and hearted flags, and the input each comment came from. You pay only for comments; opening the videos is free.
+
+$1.20 per 1,000 comments on the Apify Free plan, down to $0.60 on Business.
+
+**[Open YouTube Comments Scraper on Apify](https://apify.com/smoldesk/youtube-comments-scraper)** · [GitHub](https://github.com/smoldesk/youtube-comments-scraper)
+
+### YouTube Channel Scraper
+
+Channel profiles from URLs or `@handles`: subscribers, exact total views, video count, join date, country, description and social links, plus the latest videos, Shorts and live streams with exact views and likes. Leave the tabs empty for profiles only.
+
+$1 per 1,000 profiles or videos on the Apify Free plan, down to $0.40 on Business.
+
+**[Open YouTube Channel Scraper on Apify](https://apify.com/smoldesk/youtube-channel-scraper)** · [GitHub](https://github.com/smoldesk/youtube-channel-scraper)
 
 ### Bilibili Scraper
 

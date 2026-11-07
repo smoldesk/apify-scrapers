@@ -19,6 +19,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Google Ads Transparency Scraper](#google-ads-transparency-scraper) | Competitor ads, countries, reach | $1 / 1,000 ads |
 | [Google Hotels Scraper](#google-hotels-scraper) | Hotel prices, ratings, booking sites | $2.50 / 1,000 hotels |
 | [Google Hotels Price Calendar](#google-hotels-price-calendar) | Cheapest rate per check-in date, a year ahead | $1 / 1,000 dates |
+| [Airbnb Scraper](#airbnb-scraper) | Listings, prices for your dates, reviews, availability calendar | $2 / 1,000 listings |
 | [Shopify Store Analyzer](#shopify-store-analyzer) | Store apps, theme, contacts, products | $5 / 1,000 stores |
 | [SEEK, JobStreet & JobsDB Scraper](#seek-jobstreet--jobsdb-scraper) | Jobs and salaries in APAC | $0.80 / 1,000 jobs |
 | [Career Site Jobs Scraper](#career-site-jobs-scraper) | Jobs from Greenhouse, Lever, Workday and more | $2 / 1,000 jobs |
@@ -143,6 +144,14 @@ The cheapest nightly rate for every check-in date, up to a year ahead, for any h
 $1 per 1,000 dates, plus $1.50 per 1,000 for booking-site prices. A full year for one hotel costs about $0.37.
 
 **[Open Google Hotels Price Calendar on Apify](https://apify.com/smoldesk/google-hotel-price-calendar)** · [GitHub](https://github.com/smoldesk/google-hotel-price-calendar)
+
+### Airbnb Scraper
+
+Airbnb listings for any city, neighborhood or list of listing URLs: the price for your dates (total, per night, discounts and fees), rating, coordinates and photos, plus full details (amenities, house rules, host profile, six category ratings, sleeping arrangements). Optional guest reviews with translations and the 12-month availability calendar with booked share.
+
+$2 per 1,000 listings, plus $2 per 1,000 for full details, $2 per 1,000 reviews and $4 per 1,000 calendars. Lower on paid Apify plans.
+
+**[Open Airbnb Scraper on Apify](https://apify.com/smoldesk/airbnb-scraper)** · [GitHub](https://github.com/smoldesk/airbnb-scraper)
 
 ## Jobs
 

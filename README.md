@@ -23,6 +23,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [SEEK, JobStreet & JobsDB Scraper](#seek-jobstreet--jobsdb-scraper) | Jobs and salaries in APAC | $0.80 / 1,000 jobs |
 | [Career Site Jobs Scraper](#career-site-jobs-scraper) | Jobs from Greenhouse, Lever, Workday and more | $2 / 1,000 jobs |
 | [Tennis Scraper](#tennis-scraper) | Results, odds, H2H, ATP/WTA rankings | $2.50 / 1,000 matches |
+| [Google Maps Scraper](#google-maps-scraper) | Places, phones, websites, emails, socials | $2 / 1,000 places |
 
 ## Social media
 
@@ -169,6 +170,16 @@ Tennis results, fixtures and betting odds from TennisExplorer. Set scores, openi
 $2.50 per 1,000 matches (plus $3.50 per 1,000 for odds and H2H), $3.50 per 1,000 players, $0.60 per 1,000 ranking rows on the Free plan; lower on paid Apify plans (down to $1.40 per 1,000 matches).
 
 **[Open Tennis Scraper on Apify](https://apify.com/smoldesk/tennis-scraper)** · [GitHub](https://github.com/smoldesk/tennis-scraper)
+
+## Lead generation
+
+### Google Maps Scraper
+
+Google Maps places for any search and location: name, categories, address, phone, website, rating, review count, opening hours and coordinates. Optionally visits each business website for emails and social profiles (charged only when found). Lead filters for rating, reviews, phone and businesses without a website, a grid split to go past Google's ~120 places per search, and an only-new-places mode for monitoring.
+
+$2 per 1,000 places, plus $2 per 1,000 for contact details when an email or social profile is found. Lower on paid Apify plans.
+
+**[Open Google Maps Scraper on Apify](https://apify.com/smoldesk/google-maps-scraper)** · [GitHub](https://github.com/smoldesk/google-maps-scraper)
 
 ## Running a scraper from code
 

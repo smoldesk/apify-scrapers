@@ -24,6 +24,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Career Site Jobs Scraper](#career-site-jobs-scraper) | Jobs from Greenhouse, Lever, Workday and more | $2 / 1,000 jobs |
 | [Tennis Scraper](#tennis-scraper) | Results, odds, H2H, ATP/WTA rankings | $2.50 / 1,000 matches |
 | [Google Maps Scraper](#google-maps-scraper) | Places, phones, websites, emails, socials | $2 / 1,000 places |
+| [Contact Details Scraper](#contact-details-scraper) | Emails, phones, socials, contact forms from websites | $3 / 1,000 websites with contacts |
 
 ## Social media
 
@@ -180,6 +181,14 @@ Google Maps places for any search and location: name, categories, address, phone
 $2 per 1,000 places, plus $2 per 1,000 for contact details when an email or social profile is found. Lower on paid Apify plans.
 
 **[Open Google Maps Scraper on Apify](https://apify.com/smoldesk/google-maps-scraper)** · [GitHub](https://github.com/smoldesk/google-maps-scraper)
+
+### Contact Details Scraper
+
+Emails, phone numbers, social profiles (Facebook, Instagram, LinkedIn, X, TikTok, YouTube, WhatsApp) and contact forms from any list of websites, or from the websites in another dataset such as a Google Maps Scraper run. Reads the homepage plus contact, about, team and legal pages, checks each email's domain for a mail server and drops junk emails and website-builder social accounts.
+
+$3 per 1,000 websites with contacts found; websites with nothing found are free. Lower on paid Apify plans.
+
+**[Open Contact Details Scraper on Apify](https://apify.com/smoldesk/contact-details-scraper)** · [GitHub](https://github.com/smoldesk/contact-details-scraper)
 
 ## Running a scraper from code
 

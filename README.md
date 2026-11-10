@@ -222,6 +222,22 @@ for item in client.dataset(run["defaultDatasetId"]).iterate_items():
 
 The input fields for each scraper are listed on its Input tab on Apify.
 
+## Use all of them in your AI agent
+
+The Apify MCP server can expose every scraper here as a tool. Add this URL to Claude Desktop, Claude Code, Cursor or VS Code (you sign in to Apify in the browser on first use, or send your API token as an `Authorization: Bearer <APIFY_TOKEN>` header):
+
+```json
+{
+  "mcpServers": {
+    "smoldesk": {
+      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
+    }
+  }
+}
+```
+
+Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
+
 ## Bugs and requests
 
 Open an issue on the scraper's Issues tab on Apify. That's where fixes are tracked.

@@ -31,7 +31,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 
 ### Weibo Scraper
 
-Scrape Weibo (新浪微博) without logging in. Search any keyword or #hashtag within a date range, pull full post text, likes, comments and reposts, comment and reply threads, user profiles and the hot-search board (热搜) with heat values. Mix keywords, post links, profiles and trending in one run and duplicates are dropped. Built for brand monitoring, social listening and China market research: schedule it with **Only new posts** to get just the new mentions of your brand.
+Scrape Weibo (新浪微博) without logging in. Search any keyword or #hashtag within a date range, pull full post text, likes, comments and reposts, comment and reply threads, user profiles and the hot-search board (热搜) with heat values. Mix keywords, post links, profiles and trending in one run and duplicates are dropped. Goes past Weibo's 650-post search limit on its own, adds English region names, an ad flag and optional approximate sentiment. Built for brand monitoring, social listening and China market research: schedule it with **Only new posts** to get just the new mentions of your brand.
 
 $8 per 1,000 posts or profiles, $1 per 1,000 comments or hot-search topics.
 

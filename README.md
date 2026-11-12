@@ -22,7 +22,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Airbnb Scraper](#airbnb-scraper) | Listings, prices for your dates, reviews, availability calendar | $2 / 1,000 listings |
 | [Shopify Store Analyzer](#shopify-store-analyzer) | Store apps, theme, contacts, products | $5 / 1,000 stores |
 | [SEEK, JobStreet & JobsDB Scraper](#seek-jobstreet--jobsdb-scraper) | Jobs and salaries in APAC | $0.80 / 1,000 jobs |
-| [Career Site Jobs Scraper](#career-site-jobs-scraper) | Jobs from Greenhouse, Lever, Workday and more | $2 / 1,000 jobs |
+| [Career Site & Remote Jobs Scraper](#career-site-jobs-scraper) | Jobs from Greenhouse, Lever, Workday and more, remote jobs by country | $2 / 1,000 jobs |
 | [Tennis Scraper](#tennis-scraper) | Results, odds, H2H, ATP/WTA rankings | $2.50 / 1,000 matches |
 | [Google Maps Scraper](#google-maps-scraper) | Places, phones, websites, emails, socials | $2 / 1,000 places |
 | [Contact Details Scraper](#contact-details-scraper) | Emails, phones, socials, contact forms from websites | $3 / 1,000 websites with contacts |
@@ -33,7 +33,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 
 Scrape Weibo (新浪微博) without logging in. Search any keyword or #hashtag within a date range, pull full post text, likes, comments and reposts, comment and reply threads, user profiles and the hot-search board (热搜) with heat values. Mix keywords, post links, profiles and trending in one run and duplicates are dropped. Goes past Weibo's 650-post search limit on its own, adds English region names, an ad flag and optional approximate sentiment. Built for brand monitoring, social listening and China market research: schedule it with **Only new posts** to get just the new mentions of your brand.
 
-$8 per 1,000 posts or profiles, $1 per 1,000 comments or hot-search topics.
+$8 per 1,000 posts or profiles, $1 per 1,000 comments or hot-search topics. Lower on paid Apify plans.
 
 **[Open Weibo Scraper on Apify](https://apify.com/smoldesk/weibo-scraper)** · [GitHub](https://github.com/smoldesk/weibo-scraper)
 
@@ -41,7 +41,7 @@ $8 per 1,000 posts or profiles, $1 per 1,000 comments or hot-search topics.
 
 Scrape Toutiao (今日头条), China's biggest news app, without logging in. Search any keyword within a date range and get articles and videos with reads, plays, likes, comments and shares, 微头条 short posts with full text, images and hashtags, the comment and reply threads, and the hot board (热榜) with heat scores. Has a monitor mode that only returns new articles.
 
-$2 per 1,000 articles or videos, $1 per 1,000 comments or hot-board topics.
+$2 per 1,000 articles or videos, $1 per 1,000 comments or hot-board topics. Lower on paid Apify plans.
 
 **[Open Toutiao Scraper on Apify](https://apify.com/smoldesk/toutiao-scraper)** · [GitHub](https://github.com/smoldesk/toutiao-scraper)
 
@@ -49,7 +49,7 @@ $2 per 1,000 articles or videos, $1 per 1,000 comments or hot-board topics.
 
 Scrape WeChat Official Account (微信公众号) articles without a WeChat account or login. Search any keyword through Sogou WeChat search and get each article's full text as Markdown and plain text, images, publish time, account name and ID, author, the original/repost flag and IP location. Paste article links to get their full text, or schedule it with **Only new articles** to monitor a brand.
 
-$8 per 1,000 articles with full text, $2 per 1,000 search cards.
+$8 per 1,000 articles with full text, $2 per 1,000 search cards. Lower on paid Apify plans.
 
 **[Open WeChat Articles Scraper on Apify](https://apify.com/smoldesk/wechat-articles-scraper)** · [GitHub](https://github.com/smoldesk/wechat-articles-scraper)
 
@@ -57,7 +57,7 @@ $8 per 1,000 articles with full text, $2 per 1,000 search cards.
 
 Scrape YouTube without an API key or quota. Search results, channel videos, Shorts, live streams, playlists and comments, with exact view and like counts, publish date, tags, chapters and subscriber counts. Output is flat, so it opens cleanly in a spreadsheet.
 
-$1 per 1,000 videos or channels, $0.50 per 1,000 comments.
+$1 per 1,000 videos or channels, $0.50 per 1,000 comments. Lower on paid Apify plans.
 
 **[Open YouTube Scraper on Apify](https://apify.com/smoldesk/youtube-scraper)** · [GitHub](https://github.com/smoldesk/youtube-scraper)
 
@@ -81,23 +81,23 @@ $1 per 1,000 profiles or videos on the Apify Free plan, down to $0.40 on Busines
 
 Scrape Bilibili (哔哩哔哩) without logging in: video search, full video stats, comments and replies, danmaku (bullet comments), creator profiles and the trending charts. Has a monitor mode that only returns what is new since the last run.
 
-$2.50 per 1,000 videos, $2 per 1,000 creators, $0.50 per 1,000 comments, $0.10 per 1,000 danmaku.
+$2.50 per 1,000 videos, $2 per 1,000 creators, $0.50 per 1,000 comments, $0.10 per 1,000 danmaku. Lower on paid Apify plans.
 
 **[Open Bilibili Scraper on Apify](https://apify.com/smoldesk/bilibili-scraper)** · [GitHub](https://github.com/smoldesk/bilibili-scraper)
 
 ### Telegram Channel Scraper
 
-Scrape public Telegram channels without a login or Telegram API keys. Messages with views, reactions, media, links and forwards, plus channel info and subscriber counts. Filter by keyword and date.
+Scrape public Telegram channels without a login or Telegram API keys. Messages with views, reactions, media, links and forwards, public comments, emails and @mentions, plus channel info and subscriber counts. Filter by keyword, date, message type and views, and get only new messages on each scheduled run.
 
-$1 per 1,000 messages, $2 per 1,000 channels.
+$1 per 1,000 messages, $2 per 1,000 channels, $0.50 per 1,000 comments. Lower on paid Apify plans.
 
 **[Open Telegram Channel Scraper on Apify](https://apify.com/smoldesk/telegram-channel-scraper)** · [GitHub](https://github.com/smoldesk/telegram-channel-scraper)
 
 ### Substack Scraper
 
-Scrape Substack newsletters: subscriber counts, paid tiers and prices, author socials, and posts with likes, comments and full text. Find newsletters by category.
+Scrape Substack newsletters: subscriber counts and growth, paid tiers and prices, author socials and contact emails, posts with likes and full text, comment threads, Notes and keyword search across Substack. Find newsletters by category or keyword.
 
-$3 per 1,000 newsletters, $1 per 1,000 posts.
+$3 per 1,000 newsletters, $1 per 1,000 posts, $0.50 per 1,000 comments from 26 Nov 2026 (free until then). Lower on paid Apify plans.
 
 **[Open Substack Scraper on Apify](https://apify.com/smoldesk/substack-scraper)** · [GitHub](https://github.com/smoldesk/substack-scraper)
 
@@ -107,7 +107,7 @@ $3 per 1,000 newsletters, $1 per 1,000 posts.
 
 Google Trends data over plain HTTP, no browser. Interest over time, interest by region and city, related and rising queries, side-by-side comparison of up to 5 terms, and Trending now with search volume and news links.
 
-$1.50 per 1,000 results, $0.50 per 1,000 trending searches.
+$1.50 per 1,000 results, $0.50 per 1,000 trending searches. Lower on paid Apify plans.
 
 **[Open Google Trends Scraper on Apify](https://apify.com/smoldesk/google-trends-scraper)** · [GitHub](https://github.com/smoldesk/google-trends-scraper)
 
@@ -115,7 +115,7 @@ $1.50 per 1,000 results, $0.50 per 1,000 trending searches.
 
 See every ad a competitor runs on Google Search, YouTube, Shopping, Maps and Play, from the Google Ads Transparency Center. Ad image, video, text and landing page when Google shows them, the countries each ad runs in, EU impressions, audience targeting and political ad spend. Can alert you to new ads.
 
-$1 per 1,000 ads, plus $2 per 1,000 for full ad details.
+$1 per 1,000 ads, plus $2 per 1,000 for full ad details. Lower on paid Apify plans.
 
 **[Open Google Ads Transparency Scraper on Apify](https://apify.com/smoldesk/google-ads-transparency-scraper)** · [GitHub](https://github.com/smoldesk/google-ads-transparency-scraper)
 
@@ -123,7 +123,7 @@ $1 per 1,000 ads, plus $2 per 1,000 for full ad details.
 
 Look inside any Shopify store: installed apps, theme, contact emails and phones, social links, location, product count and price range. Can also export every product with images, descriptions and variants, plus a CSV you can import straight into another Shopify store.
 
-$5 per 1,000 stores, $0.50 per 1,000 products.
+$5 per 1,000 stores, $0.50 per 1,000 products. Lower on paid Apify plans.
 
 **[Open Shopify Store Analyzer on Apify](https://apify.com/smoldesk/shopify-store-analyzer)** · [GitHub](https://github.com/smoldesk/shopify-store-analyzer)
 
@@ -133,7 +133,7 @@ $5 per 1,000 stores, $0.50 per 1,000 products.
 
 Hotel prices from Google Hotels for any city: nightly and total prices for your dates in any currency, taxes, star class, ratings with review breakdowns, GPS, photos, and the prices Google lists for each booking site (Expedia, Booking.com, Hotels.com and others).
 
-$2.50 per 1,000 hotels, plus $2 per 1,000 for booking-site prices.
+$2.50 per 1,000 hotels, plus $2 per 1,000 for booking-site prices. Lower on paid Apify plans.
 
 **[Open Google Hotels Scraper on Apify](https://apify.com/smoldesk/google-hotels-scraper)** · [GitHub](https://github.com/smoldesk/google-hotels-scraper)
 
@@ -141,7 +141,7 @@ $2.50 per 1,000 hotels, plus $2 per 1,000 for booking-site prices.
 
 The cheapest nightly rate for every check-in date, up to a year ahead, for any hotel on Google Hotels. One row per date with price per night, stay total, taxes and fees, weekday and a cheapest-date flag. Choose stay length (1 to 28 nights), guests and currency, and optionally add the prices each booking site lists for every date.
 
-$1 per 1,000 dates, plus $1.50 per 1,000 for booking-site prices. A full year for one hotel costs about $0.37.
+$1 per 1,000 dates, plus $1.50 per 1,000 for booking-site prices. A full year for one hotel costs about $0.37. Lower on paid Apify plans.
 
 **[Open Google Hotels Price Calendar on Apify](https://apify.com/smoldesk/google-hotel-price-calendar)** · [GitHub](https://github.com/smoldesk/google-hotel-price-calendar)
 
@@ -165,7 +165,7 @@ $0.80 per 1,000 jobs, plus $0.40 per 1,000 for full descriptions.
 
 ### Career Site Jobs Scraper
 
-Search live jobs from more than 12,000 company career sites on Greenhouse, Lever, Ashby and Workday by title, location, remote and seniority. Or point it at any company on 8 applicant tracking systems. Salary ranges, descriptions in Markdown, and a new-jobs mode that also tells you which jobs closed.
+Search live jobs from more than 12,000 company career sites on Greenhouse, Lever, Ashby and Workday by title, location, remote and seniority. Or point it at any company on 8 applicant tracking systems. Salary ranges, descriptions in Markdown, and a new-jobs mode that also tells you which jobs closed. Remote jobs can be filtered by the country you work from, with visa sponsorship and salary in USD.
 
 $2 per 1,000 jobs.
 

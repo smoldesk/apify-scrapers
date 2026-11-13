@@ -79,7 +79,7 @@ $1 per 1,000 profiles or videos on the Apify Free plan, down to $0.40 on Busines
 
 ### Bilibili Scraper
 
-Scrape Bilibili (哔哩哔哩) without logging in: video search, full video stats, comments and replies, danmaku (bullet comments), creator profiles and the trending charts. Has a monitor mode that only returns what is new since the last run.
+Scrape Bilibili (哔哩哔哩) without logging in: video search (English brand names also searched in Chinese), full video stats with engagement rate, comments and replies, danmaku (bullet comments) with a per-video danmaku profile, built-in Chinese sentiment, creator profiles and the trending charts. Has a monitor mode that only returns what is new since the last run, plus follow-up comments.
 
 $2.50 per 1,000 videos, $2 per 1,000 creators, $0.50 per 1,000 comments, $0.10 per 1,000 danmaku. Lower on paid Apify plans.
 
@@ -147,7 +147,7 @@ $1 per 1,000 dates, plus $1.50 per 1,000 for booking-site prices. A full year fo
 
 ### Airbnb Scraper
 
-Airbnb listings for any city, neighborhood or list of listing URLs: the price for your dates (total, per night, discounts and fees), rating, coordinates and photos, plus full details (amenities, house rules, host profile, six category ratings, sleeping arrangements). Optional guest reviews with translations and the 12-month availability calendar with booked share.
+Airbnb listings for any city (whole cities, split across the map past Airbnb's ~270 limit), neighborhood, list of listing URLs or host profile (all their listings): the price for your dates (total, per night, discounts and fees), rating, coordinates and photos, plus full details (amenities, house rules, host profile, six category ratings, sleeping arrangements). Optional guest reviews with translations and the 12-month availability calendar with booked share.
 
 $2 per 1,000 listings, plus $2 per 1,000 for full details, $2 per 1,000 reviews and $4 per 1,000 calendars. Lower on paid Apify plans.
 

@@ -26,6 +26,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Tennis Scraper](#tennis-scraper) | Results, odds, H2H, ATP/WTA rankings | $2.50 / 1,000 matches |
 | [Google Maps Scraper](#google-maps-scraper) | Places, phones, websites, emails, socials | $2 / 1,000 places |
 | [Contact Details Scraper](#contact-details-scraper) | Emails, phones, socials, contact forms from websites | $3 / 1,000 websites with contacts |
+| [Websiteless](#websiteless) | Google Maps businesses with no website, a Facebook-only page or a broken site, scored | $5 / 1,000 leads |
 
 ## Social media
 
@@ -198,6 +199,14 @@ Emails, phone numbers, social profiles (Facebook, Instagram, LinkedIn, X, TikTok
 $3 per 1,000 websites with contacts found; websites with nothing found are free. Lower on paid Apify plans.
 
 **[Open Contact Details Scraper on Apify](https://apify.com/smoldesk/contact-details-scraper)** · [GitHub](https://github.com/smoldesk/contact-details-scraper)
+
+### Websiteless
+
+Google Maps leads for web designers and agencies: local businesses with no website, only a Facebook or Instagram page, only a directory or booking listing, or (if you choose) a dead, parked or outdated site. Each lead has a 0 to 100 lead score, plain-English reasons to pitch, phone, rating, reviews and Google profile gaps. Chains, duplicates and businesses with a working website are skipped for free.
+
+$5 per 1,000 leads, plus $2 per 1,000 for contact details when an email or social profile is found. Lower on paid Apify plans.
+
+**[Open Websiteless on Apify](https://apify.com/smoldesk/websiteless-leads)** · [GitHub](https://github.com/smoldesk/websiteless-leads)
 
 ## Running a scraper from code
 

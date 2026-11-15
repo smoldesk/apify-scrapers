@@ -15,6 +15,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Bilibili Scraper](#bilibili-scraper) | Videos, comments, danmaku, creators | $2.50 / 1,000 videos |
 | [Telegram Channel Scraper](#telegram-channel-scraper) | Channel messages, views, reactions | $1 / 1,000 messages |
 | [Substack Scraper](#substack-scraper) | Newsletters, subscriber counts, posts | $3 / 1,000 newsletters |
+| [Google News Scraper](#google-news-scraper) | News articles by keyword, topic and country, real URLs, full text | $2.50 / 1,000 articles |
 | [Google Trends Scraper](#google-trends-scraper) | Interest over time, regions, related queries | $1.50 / 1,000 results |
 | [Google Ads Transparency Scraper](#google-ads-transparency-scraper) | Competitor ads, countries, reach | $1 / 1,000 ads |
 | [Google Hotels Scraper](#google-hotels-scraper) | Hotel prices, ratings, booking sites | $2.50 / 1,000 hotels |
@@ -103,6 +104,14 @@ $3 per 1,000 newsletters, $1 per 1,000 posts, $0.50 per 1,000 comments from 26 N
 **[Open Substack Scraper on Apify](https://apify.com/smoldesk/substack-scraper)** · [GitHub](https://github.com/smoldesk/substack-scraper)
 
 ## Marketing and SEO
+
+### Google News Scraper
+
+Google News by keyword, topic, Google News URL, country and date range, with no login or API key. Every article has its title, source, publish date and the real publisher URL (not the Google redirect), and the related coverage from other outlets. Goes past the ~100-article limit by walking back day by day, reads 84 country and language editions in one run, and can add the full article text as Markdown (charged only when found). Schedule it with **Only new articles** for a news alert feed.
+
+$2.50 per 1,000 articles, plus $1 per 1,000 for full text when found. Lower on paid Apify plans.
+
+**[Open Google News Scraper on Apify](https://apify.com/smoldesk/google-news-scraper)** · [GitHub](https://github.com/smoldesk/google-news-scraper)
 
 ### Google Trends Scraper
 
@@ -239,13 +248,13 @@ The Apify MCP server can expose every scraper here as a tool. Add this URL to Cl
 {
   "mcpServers": {
     "smoldesk": {
-      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
+      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
     }
   }
 }
 ```
 
-Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
+Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
 
 ## Bugs and requests
 

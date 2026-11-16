@@ -8,7 +8,6 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 |---|---|---|
 | [Weibo Scraper](#weibo-scraper) | Posts, comments, profiles, hot search | $8 / 1,000 posts |
 | [Toutiao Scraper](#toutiao-scraper) | News search with full article text, 微头条 posts, comments, hot board | $2 / 1,000 articles |
-| [WeChat Articles Scraper](#wechat-articles-scraper) | Official Account articles, full text, images | $8 / 1,000 articles |
 | [YouTube Scraper](#youtube-scraper) | Videos, Shorts, channels, comments | $1 / 1,000 videos |
 | [YouTube Comments Scraper](#youtube-comments-scraper) | Comments and replies from videos, channels, searches | $1.20 / 1,000 comments |
 | [YouTube Channel Scraper](#youtube-channel-scraper) | Channel profiles, social links, latest videos | $1 / 1,000 results |
@@ -46,14 +45,6 @@ Scrape Toutiao (今日头条), China's biggest news app, without logging in. Sea
 $2 per 1,000 articles or videos, plus $2 per 1,000 for full text when found, $1 per 1,000 comments or hot-board topics. Lower on paid Apify plans.
 
 **[Open Toutiao Scraper on Apify](https://apify.com/smoldesk/toutiao-scraper)** · [GitHub](https://github.com/smoldesk/toutiao-scraper)
-
-### WeChat Articles Scraper
-
-Scrape WeChat Official Account (微信公众号) articles without a WeChat account or login. Search any keyword through Sogou WeChat search and get each article's full text as Markdown and plain text, images, publish time, account name and ID, author, the original/repost flag and IP location. Paste article links to get their full text, or schedule it with **Only new articles** to monitor a brand.
-
-$8 per 1,000 articles with full text, $2 per 1,000 search cards. Lower on paid Apify plans.
-
-**[Open WeChat Articles Scraper on Apify](https://apify.com/smoldesk/wechat-articles-scraper)** · [GitHub](https://github.com/smoldesk/wechat-articles-scraper)
 
 ### YouTube Scraper
 
@@ -248,13 +239,13 @@ The Apify MCP server can expose every scraper here as a tool. Add this URL to Cl
 {
   "mcpServers": {
     "smoldesk": {
-      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
+      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
     }
   }
 }
 ```
 
-Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/wechat-articles-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
+Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
 
 ## Bugs and requests
 

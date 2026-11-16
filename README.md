@@ -16,6 +16,7 @@ This repo is the catalog. The scrapers run on Apify, so there's no code to insta
 | [Substack Scraper](#substack-scraper) | Newsletters, subscriber counts, posts | $3 / 1,000 newsletters |
 | [Google News Scraper](#google-news-scraper) | News articles by keyword, topic and country, real URLs, full text | $2.50 / 1,000 articles |
 | [Google Trends Scraper](#google-trends-scraper) | Interest over time, regions, related queries | $1.50 / 1,000 results |
+| [App Store & Google Play Scraper](#app-store--google-play-scraper) | Reviews with filters, ratings, star histograms, charts, search, both stores | $0.50 / 1,000 reviews |
 | [Google Ads Transparency Scraper](#google-ads-transparency-scraper) | Competitor ads, countries, reach | $1 / 1,000 ads |
 | [Google Hotels Scraper](#google-hotels-scraper) | Hotel prices, ratings, booking sites | $2.50 / 1,000 hotels |
 | [Google Hotels Price Calendar](#google-hotels-price-calendar) | Cheapest rate per check-in date, a year ahead | $1 / 1,000 dates |
@@ -111,6 +112,14 @@ Google Trends data over plain HTTP, no browser. Interest over time, interest by 
 $1.50 per 1,000 results, $0.50 per 1,000 trending searches. Lower on paid Apify plans.
 
 **[Open Google Trends Scraper on Apify](https://apify.com/smoldesk/google-trends-scraper)** · [GitHub](https://github.com/smoldesk/google-trends-scraper)
+
+### App Store & Google Play Scraper
+
+Apple App Store and Google Play in one run, with no login or API key. Paste app links, Apple ids or package names from both stores in one list and get user reviews (stars, title, text, date, app version, helpful votes and the developer's reply on Google Play), app details with the 1 to 5 star histogram, installs, price, version and privacy labels, plus keyword search, top charts by category, all apps of a developer and similar apps, in any country. Filter reviews by stars, date range, keywords, app version or developer reply before you pay for them, and schedule it with **Only new reviews** for daily review monitoring.
+
+$0.50 per 1,000 reviews, $1.50 per 1,000 app details, $0.70 per 1,000 search, chart or list rows. Lower on paid Apify plans.
+
+**[Open App Store & Google Play Scraper on Apify](https://apify.com/smoldesk/app-store-google-play-scraper)** · [GitHub](https://github.com/smoldesk/app-store-google-play-scraper)
 
 ### Google Ads Transparency Scraper
 
@@ -239,13 +248,13 @@ The Apify MCP server can expose every scraper here as a tool. Add this URL to Cl
 {
   "mcpServers": {
     "smoldesk": {
-      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
+      "url": "https://mcp.apify.com?tools=smoldesk/airbnb-scraper,smoldesk/app-store-google-play-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper"
     }
   }
 }
 ```
 
-Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
+Or let the Apify CLI write the config: `apify mcp install cursor --tools smoldesk/airbnb-scraper,smoldesk/app-store-google-play-scraper,smoldesk/career-site-jobs-scraper,smoldesk/bilibili-scraper,smoldesk/contact-details-scraper,smoldesk/google-ads-transparency-scraper,smoldesk/google-hotel-price-calendar,smoldesk/google-hotels-scraper,smoldesk/google-maps-scraper,smoldesk/google-news-scraper,smoldesk/google-trends-scraper,smoldesk/seek-jobs-scraper,smoldesk/shopify-store-analyzer,smoldesk/substack-scraper,smoldesk/telegram-channel-scraper,smoldesk/tennis-scraper,smoldesk/toutiao-scraper,smoldesk/weibo-scraper,smoldesk/youtube-channel-scraper,smoldesk/youtube-comments-scraper,smoldesk/youtube-scraper` (also `claude-code`, `vscode`, `codex`). Each run is billed per result, same as on the Store.
 
 ## Bugs and requests
 
